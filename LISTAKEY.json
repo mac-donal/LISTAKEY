@@ -1,9 +1,12 @@
-{
+ {
     "keys": [
         {
             "kty": "oct",
             "k": "eqkmbtkepFEEgzcAKd/PRQ",
-            "kid": "jqI1zggmQIsiHEmBFam2LQ"
+            "kid": "jqI1zggmQIsiHEmBFam2LQ",
+            "channel": "telefe",
+            "user_agent": "UserAgent1",
+            "referent": "Referent1"
         }
     ],
     "type": "temporary"
@@ -13,17 +16,10 @@
 new_keys = [
     {
         "kty": "oct",
-        "k": "newKeyExample1",
-        "kid": "newKidExample1"
-    },
-    {
-        "kty": "oct",
-        "k": "newKeyExample2",
-        "kid": "newKidExample2"
-    },
-    {
-        "kty": "oct",
-        "k": "newKeyExample3",
-        "kid": "newKidExample3"
+        "k": "VPL9yDwdozzZJpvyHgghjA",
+        "kid": "HGKiFqX+Qj+VnLHKAvYtgw",
+        "channel": "el trece",
+        "user_agent": "UserAgent1",
+        "referent": "Referent1"
     }
 ]
